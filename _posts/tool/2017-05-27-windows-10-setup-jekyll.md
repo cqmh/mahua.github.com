@@ -12,7 +12,7 @@ keywords: Tool, Windows 10, Jekyll
 ## 2. Install Ruby via Chocolatey: 
 ```
 choco install ruby -y
-````
+```
 ## 3. Reopen a command prompt and install Jekyll: 
 ```
 gem install jekyll bundler
