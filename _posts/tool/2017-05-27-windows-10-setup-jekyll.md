@@ -10,11 +10,11 @@ keywords: Tool, Windows 10, Jekyll
 ```
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
-## 2. Install Ruby via Chocolatey: `choco install ruby -y`
+## 2. Install Ruby via Chocolatey: 
 ```
 choco install ruby -y
+````
+## 3. Reopen a command prompt and install Jekyll: 
 ```
-## 3. Reopen a command prompt and install Jekyll: `gem install jekyll bundler`
-```
-gem install jekyll
+gem install jekyll bundler
 ```
