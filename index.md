@@ -1,5 +1,5 @@
 ---
-title: Why Blog
+title: MaHua Blog
 layout: post
 ---
 
