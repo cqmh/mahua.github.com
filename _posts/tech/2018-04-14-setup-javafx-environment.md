@@ -9,9 +9,9 @@ keywords: JavaFX E(fx)clipse SceneBuilder
 ## 1. 安装 E(fx)clipse插件
 
 Eclipse安装E(fx)clipse插件
-
+![cover](/assets/blog/efxclipse.png)
 ```
-
+![cover](/assets/blog/efxclipse.png)
 ```
 
 ## 2. JavaFX SceneBuilder配置
