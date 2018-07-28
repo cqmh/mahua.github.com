@@ -8,7 +8,7 @@ keywords: maven jar 本地
 
 maven工程使用本地jar包
 
-添加本地依赖
+maven工程添加本地依赖
 ```
     <dependency>
       <groupId>cn.com.cqzk</groupId>
