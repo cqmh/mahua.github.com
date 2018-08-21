@@ -1,12 +1,10 @@
 ---
 layout: post
-title: spring cloud 初探 
+title: spring cloud 微服务初探 
 category: 技术
 tags: spring-cloud docker kubernetes
 keywords: spring-cloud docker kubernetes
 ---
-
-spring cloud 微服务初探
 
 ## 开源试例
 [cloudframeworks-springcloud/PiggyMetrics](https://github.com/cqmh/PiggyMetrics)

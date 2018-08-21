@@ -5,7 +5,7 @@ category: 技术
 tags: vertx 事务
 keywords: vertx commit rollback 事务
 ---
-##传统事务
+## 传统事务
 ```
 try {
     开启事务
@@ -15,7 +15,7 @@ try {
     回滚事务
 }
 ```
-##Vertx事务1
+## Vertx事务1
 ```
 jdbcClientlient.getConnection(connHandler(resultHandler, connection -> {
     String sql1 = "";
@@ -46,7 +46,7 @@ jdbcClientlient.getConnection(connHandler(resultHandler, connection -> {
     });
 });
 ```
-##Vertx事务2
+## Vertx事务2
 ```
 jdbcClientlient.getConnection(connHandler(resultHandler, connection -> {
     String sql1 = "";
