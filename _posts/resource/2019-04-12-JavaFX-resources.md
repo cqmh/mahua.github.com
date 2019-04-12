@@ -10,8 +10,7 @@ keywords: JavaFX FontAwesome CSS
 
 JAVAFX类似Bootstrap一样的CSS库
 
-Maven 
-
+Maven
 ```
         <dependency>
             <groupId>de.jensd</groupId>
@@ -23,6 +22,7 @@ Maven
 ## MigLayout
 
 构造简单的布局，调整几个组件之间的margin
+
 Maven
 ```
         <dependency>
