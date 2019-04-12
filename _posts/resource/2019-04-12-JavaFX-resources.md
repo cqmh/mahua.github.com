@@ -9,13 +9,15 @@ keywords: JavaFX FontAwesome CSS
 ## FontAwesomeFX
 
 JAVAFX类似Bootstrap一样的CSS库
+
 Maven 
+
 ```
-    <dependency>
-        <groupId>de.jensd</groupId>
-        <artifactId>fontawesomefx</artifactId>
-        <version>8.9</version>
-    </dependency>
+        <dependency>
+            <groupId>de.jensd</groupId>
+            <artifactId>fontawesomefx</artifactId>
+            <version>8.9</version>
+        </dependency>
 ```
 
 ## MigLayout
