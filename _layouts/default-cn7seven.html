@@ -1,0 +1,40 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include sidebar.html %}
+
+    <main id="main" class="open">
+      {{ content }}
+
+      <div class="footer">
+        <div class="container">
+          <p class="footer-entry">转载请注明出处，本文采用 (<a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">CC4.0</a>) 协议授权</p>
+          <p class="footer-entry">Buit with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/P233/3-Jekyll" target="_blank">3-Jekyll theme</a> • Hosted on <a href="https://pages.github.com/" target="_blank">Github</a></p>
+          混沌拾遗  版权所有 | <a href="http://www.beian.miit.gov.cn/" >网站备案：渝ICP备<span>20008409</span>号-2</a>
+		 	<div style="width:300px;margin:0 auto; padding:20px 0;">
+		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50010802003425" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.beian.gov.cn/img/ghs.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">渝公网安备 50010802003425号</p></a>
+		 	</div>
+		 		 
+        </div>
+      </div>
+    </main>
+
+    <button id="menu" class="open">
+      <span id="menu-icons"></span>
+    </button>
+
+    <button id="post-toc-menu">
+      <span id="post-toc-menu-icons"></span>
+    </button>
+    <div id="post-toc">
+      <span id="post-toc-title">Table of Contents</span>
+      <ul id="post-toc-ul"></ul>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
